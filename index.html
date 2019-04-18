@@ -8,8 +8,13 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="Your-Image-Url" />
 	<meta property="og:description" content="Your-Page-Description" />
-	<title>Michael Jiang | Personal Trainer</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favico.ico">
+	<title>Dave Thomson | Model</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/main%20logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 	<!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700%7CRaleway:300,400,500,700' rel='stylesheet' type='text/css'>
 	
@@ -23,6 +28,7 @@
 
 </head>
 <body class="shop home-page">
+     <section id="home">
 
 	<!-- Side Navigation Menu -->
 	<aside class="side-navigation-wrapper one-page-nav enter-right" data-no-scrollbar data-animation="push-in">
@@ -36,15 +42,16 @@
 					</div>
 				</div>
 				<nav class="side-navigation nav-block">
+                    
 					<ul>
 						<li class="current">
 							<a href="#home" data-offset="0" class="scroll-link">Home</a>
 						</li>
 						<li>
-							<a href="#contact" data-offset="-260" class="scroll-link">About</a>
+							<a href="#about" data-offset="-260" class="scroll-link">About</a>
 						</li>
 						<li>
-							<a href="#services" data-offset="-60" class="scroll-link">Services</a>
+							<a href="#portfolio" data-offset="-60" class="scroll-link">Portfolio</a>
 						</li>
 						<li>
 							<a href="#testimonials" data-offset="-60" class="scroll-link">Testimonials</a>
@@ -55,13 +62,7 @@
 					</ul>
 				</nav>
 				<div class="side-navigation-footer">
-					<ul class="social-list list-horizontal">
-						
-				    <li><a href="https://www.facebook.com/mikejiang8" target="_blank" class="color-grey-light"><span class="icon-facebook-with-circle medium"></span></a></li>
-												
-					<li><a href="https://www.instagram.com/mikejiang8/" target="_blank" class="color-grey-light"><span class="icon-instagram-with-circle medium"></span></a></li>
-					</ul>
-					<p class="copyright no-margin-bottom">&copy; Michael Jiang. All Rights Reserved</p>
+					<p class="copyright no-margin-bottom">&copy; Dave Thomson. All Rights Reserved.</p>
 				</div>
 			</div>
 		</div>
@@ -75,9 +76,11 @@
 			<header class="header header-fixed header-fixed-on-mobile header-transparent" data-bkg-threshold="window-height">
 				<div class="header-inner">
 					<div class="row nav-bar">
-						<div class="column width-12 nav-bar-inner">
+						<div class="column width-15 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
+									<a href="index.html"><img src="images/resume/logo-dark.png" alt="DT Logo" /></a>
+									<a href="index.html"><img src="images/resume/logo.png" alt="DT Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">
@@ -181,12 +184,12 @@
 										<a href="#about" data-offset="-260" class="scroll-link">About</a>
 									</li>
 									<li>
-										<a href="#services" data-offset="-60" class="scroll-link">Services</a>
-									</li>
-									<li>
-										<a href="#testimonials" data-offset="-60" class="scroll-link">Testimonials</a>
+										<a href="#portfolio" data-offset="-60" class="scroll-link">Portfolio</a>
 									</li>
                                     <li>
+										<a href="#testimonials" data-offset="-60" class="scroll-link">Testimonials</a>
+									</li>
+									<li>
 										<a href="#contact" data-offset="-60" class="scroll-link">Contact</a>
 									</li>
 								</ul>
@@ -201,199 +204,287 @@
 			<div class="content clearfix">
 
 				<!-- Fullscreen Slider Section -->
-				<section id="home" class="section-block featured-media window-height tm-slider-parallax-container">
+				<section class="section-block featured-media window-height tm-slider-parallax-container">
 					<div class="tm-slider-container full-width-slider" data-featured-slider data-parallax>
 						<ul class="tms-slides">
-							<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.55">
+							<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-overlay-bkg-color="#000000" data-overlay-bkg-opacity="0.75">
 								<div class="tms-content">
 									<div class="tms-content-inner left left-on-mobile v-align-middle">
 										<div class="row">
 											<div class="column width-12">
-												<h1 class="tms-caption color-white weight-light mb-0"
-												data-animate-in="preset:fadeIn;duration:1000ms;delay:100ms;"
-												data-no-scale
+												<div class="tms-caption thumbnail profile-image pull-left clear-float-on-mobile"
+													data-animate-in="preset:slideInUpShort;duration:1000ms;"
 												>
-													Michael Jiang
-												</h1>
-												<div class="tms-caption" style="width:100%;"
-													data-animate-in="preset:scaleOut;duration:1000ms;"
-													data-no-scale>
-													<hr class="opacity-05">
+													<img class="rounded" data-src="images/resume/generic/team-avatar-2.jpg" src="images/blank.png" alt="">
 												</div>
-												<h3 class="tms-caption color-grey-light weight-light mb-20 mb-mobile-20"
-												data-animate-in="preset:slideInDownShort;duration:1000ms;delay:1000ms;"
-												data-no-scale
-												>
-													Personal Trainer
-												</h3>
-												<a href="#about" class="tms-caption pull-right color-white scroll-link icon-down-open-mini medium hide-on-mobile" data-offset="-260" 
-													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:1000ms;"
-													data-no-scale>
-												</a>
-												<div class="clear"></div>
-												<ul class="tms-caption social-list list-horizontal no-margins"
-													data-animate-in="preset:slideInDownShort;duration:1000ms;delay:1000ms;">
-													
-													<li><a href="https://www.facebook.com/mikejiang8" target="_blank" class="color-grey-light"><span class="icon-facebook-with-circle medium"></span></a></li>
-												
-													<li><a href="https://www.instagram.com/mikejiang8/" target="_blank" class="color-grey-light"><span class="icon-instagram-with-circle medium"></span></a></li>
-												</ul>
+												<div class="pull-left clear-float-on-mobile">
+													<h1 class="tms-caption color-white title-large mb-20 mb-mobile-20"
+													data-animate-in="preset:slideInUpShort;duration:1000ms;delay:200ms;"
+													data-no-scale
+													>
+														Dave Thomson<br><span class="opacity-05">Australian Model</span>
+													</h1>
+													<div class="clear"></div>
+													<ul class="tms-caption social-list list-horizontal no-margin-left mb-40"
+														data-animate-in="preset:slideInUpShort;duration:1000ms;delay:400ms;">
+													</ul>
+													<div class="clear"></div>
+														<a href="#about" class="tms-caption color-white scroll-link icon-down-open-mini large hide-on-mobile" data-offset="-60" 
+														data-animate-in="preset:slideInDownShort;duration:1000ms;delay:1000ms;"
+														data-no-scale>
+													</a>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<img data-src="images/resume/slider/slide-2-fs.jpg" data-retina src="images/blank.png" alt=""/>
+								<img data-src="images/resume/slider/dt2.jpg" data-retina src="images/blank.png" alt=""/>
 							</li>
 						</ul>
 					</div>
 				</section>
-				<!-- Fullscreen Slider Section End -->
 
-				<!-- Intro Section -->
-				<section id="about" class="section-block replicable-content">
-					<div class="row">
-						<div class="column width-6 right left-on-mobile">
-							<h2 class="mb-50">I can transform you in 2 months. Get the body you want and perform at competitive levels!</h2>
-							<div class="thumbnail no-margin-bottom">
-								
+								<!-- About -->
+		                   <section id="about">
+                     <section class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bkg-theme">
+						<div class="media-column width-6 window-height background-none">
+							<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-keyboard="false" data-auto-advance data-auto-advance-interval="4000" data-progress-bar="false" data-speed="1000" data-scale-under="0" data-width="722">
+								<ul class="tms-slides">
+									<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-as-bkg-image data-animation="slideLeftRight">
+										<img data-src="images/travel-agency/generic/hero-half-2.jpg" data-retina src="images/blank.png" alt=""/>
+									</li>
+								</ul>
 							</div>
-							<p class="weight-bold text-uppercase opacity-07 mb-mobile-50"><small>Michael Jiang -  Licensed black belt and SGX group training instructor </small></p>
-							
 						</div>
-						<div class="column width-5 offset-1">
-							<p class="mb-40">Michael is a business entrepreneur and fitness advocate, creating projects that look to empower people to live healthier lives. He is the founder of Suns Out Fitness, one of the biggest fitness communities in Manilla and Tokyo. He works together with companies to position their brands into the minds of healthy lifestyle consumers.</p>
-							<p>As an ambassador for Spartan Race and certified coach. Michael leads workouts for groups of up to 300 people. We often partner with companies in these workouts to help them actively engage with their target customers.</p>
+						<div class="row">
+							<div class="column width-5">
+								<div class="hero-content split-hero-content">
+									<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="preset:fadeIn;duration:1300ms;" data-threshold="0.5">
+										<div class="color-white">
+											<h2 class="mb-30">About</h2>
+
+										</div>
+										<p class="color-white opacity-09">
+                                          
+                                        David is an agency-represented model, actor & presenter of Scottish & Malaysian-Chinese heritage. He is actually a qualified doctor but works part-time in order to develop his creative side. With over 5 years of experience in both commercial & fashion shoots & professional training in singing & hip hop dancing, David has a broad skill base. He has also worked as a presenter, has experience with green screen & teleprompter/autocue. Combined with his positive energy & on-camera charm, his experience helps him obtain the best result for clients.
+
+</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+                               </section>
+				
+				<!-- About -->
+                
+                
+				<!-- Content Section -->
+                                <section id="portfolio">
+            
+				<div class="section-block replicable-content">
+					<div class="row horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;" data-threshold="0.5">
+						<div class="column width-12">
+							<h2 class="mb-20">Portfolio</h2>
+						</div>
+							</div>
+						</div>
+                </section>
+				
+				<!-- Content Section End -->
+
+				<!-- Portfolio Grid -->
+				<div class="section-block grid-container fade-in-progressively full-width no-margins no-padding" data-layout-mode="masonry" data-grid-ratio="1" data-animate-filter-duration="700" data-set-dimensions data-animate-resize data-animate-resize-duration="0.8">
+					<div class="row">
+						<div class="column width-12">
+							<div class="row grid content-grid-4">
+								<div class="grid-item grid-sizer design">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-1" data-caption=""  href="images/design-agency/portfolio/grid/no-margins/project-1-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-1-square.jpg" alt=""/>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item illutration">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-2" data-caption=""  href="images/design-agency/portfolio/grid/no-margins/project-2-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-2-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+				
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design illustration">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-3" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-3-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-3-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-3-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item illustration">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-4" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-4-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-4-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-4-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+													
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item design">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-5" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item development">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-6" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item development">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-7" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="grid-item illustration">
+									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
+										<a class="overlay-link lightbox-link" data-group="project-8" data-caption="" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" data-lightbox-animation="slideInBottom">
+											<img src="images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" alt=""/>
+											<span class="overlay-info">
+												<span>
+													<span>
+														
+													</span>
+												</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</section>
-				<!-- Intro Section End -->
-            
-				
-<!-- Services -->
-				<div id="services">
-
-					<!-- Hero Section 5 -->
-					<section class="section-block hero-5 hero-5-1 clear-height show-media-column-on-mobile bkg-grey-ultralight">
-						<div class="media-column width-6 window-height background-none">
-							<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-keyboard="false" data-auto-advance data-auto-advance-interval="4000" data-progress-bar="false" data-speed="1000" data-scale-under="0" data-width="722">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-as-bkg-image data-animation="scaleOut">
-										<img data-src="images/travel-agency/generic/hero-half-4.jpg" data-retina src="images/blank.png" alt=""/>
-								
-								
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="column width-5 offset-7">
-								<div class="hero-content split-hero-content">
-									<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="preset:fadeIn;duration:1300ms;" data-threshold="0.5">
-										<h2 class="mb-30">Martial Arts Training</h2>
-										<p class="lead">Learn the esoteric art of taekwondo and kickboxing.</p>
-										<p class="opacity-07">A certified black belt training instructor and a member of the M - Team, an  international elite taekwondo group. Have this one in a lifetime opportunity of training with a master martial artist! Michael trains people of all experiences and background, whether you're a complete beginner looking to get in shape or a veteran looking to compete and dominate.   </p>
-										<a  href="#contact" data-offset="-60" class="button scroll-link medium bkg-theme bkg-hover-charcoal color-white color-hover-white text-uppercase">Book Now!</a>
-                                    
-                                        
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Hero Section 5 End -->
-
-					<!-- Hero Section 5 -->
-					<section class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bkg-theme">
-						<div class="media-column width-6 window-height background-none">
-							<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-keyboard="false" data-auto-advance data-auto-advance-interval="4000" data-progress-bar="false" data-speed="1000" data-scale-under="0" data-width="722">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-as-bkg-image data-animation="slideTopBottom">
-										<img data-src="images/travel-agency/generic/hero-half-3.jpg" data-retina src="images/blank.png" alt=""/>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="column width-5">
-								<div class="hero-content split-hero-content">
-									<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="preset:fadeIn;duration:1300ms;" data-threshold="0.5">
-										<div class="color-white">
-											<h2 class="mb-30">Obstacle Course Training</h2>
-											<p class="lead">A fun way to get fit and social!</p>
-										</div>
-										<p class="color-white opacity-09">Think working out is boring? Introducing obstacle course training with Michael Jiang. Join the exclusive group of people that engage in activities such as running, jumping and climbing with personal guidance from a professional. A great way to build strength, cardiovascular fitness, and strong bonds!   </p>
-										<a href="#contact" data-offset="-60" class="button scroll-link medium bkg-white bkg-hover-charcoal color-charcoal color-hover-white text-uppercase">Book Now!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-                    
-					<!-- Hero Section 5 End -->
-
-                    <!-- Hero Section 5 -->
-					<section class="section-block hero-5 hero-5-1 clear-height show-media-column-on-mobile bkg-grey-ultralight">
-						<div class="media-column width-6 window-height background-none">
-							<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-keyboard="false" data-auto-advance data-auto-advance-interval="4000" data-progress-bar="false" data-speed="1000" data-scale-under="0" data-width="722">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-as-bkg-image data-animation="scaleOut">
-										<img data-src="images/travel-agency/generic/other.jpg" data-retina src="images/blank.png" alt=""/>
-								
-								
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="column width-5 offset-7">
-								<div class="hero-content split-hero-content">
-									<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="preset:fadeIn;duration:1300ms;" data-threshold="0.5">
-										<h2 class="mb-30">Group Training</h2>
-										<p class="lead">Get in shape with others!</p>
-										<p class="opacity-07">Love to train with friends? No problem! Michael Jiang regularly trains groups of up to 300 people. He trains with personal clients as well as companies and brands to promote a healthy lifestyle. Training with a group is a great way to stay motivated and get amazing results.  </p>
-										<a href="#contact" data-offset="-60" class="button scroll-link medium bkg-theme bkg-hover-charcoal color-white color-hover-white text-uppercase">Book Now!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Hero Section 5 End -->
-					<!-- Hero Section 5 -->
-					<section class="section-block hero-5 hero-5-1 clear-height right show-media-column-on-mobile bkg-theme">
-						<div class="media-column width-6 window-height background-none">
-							<div class="tm-slider-container content-slider window-height" data-animation="slide" data-nav-arrows="false" data-nav-keyboard="false" data-auto-advance data-auto-advance-interval="4000" data-progress-bar="false" data-speed="1000" data-scale-under="0" data-width="722">
-								<ul class="tms-slides">
-									<li class="tms-slide" data-image data-as-bkg-image data-force-fit data-as-bkg-image data-animation="slideTopBottom">
-										<img data-src="images/travel-agency/generic/dren.jpg" data-retina src="images/blank.png" alt=""/>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="row">
-							<div class="column width-5">
-								<div class="hero-content split-hero-content">
-									<div class="hero-content-inner left center-on-mobile horizon" data-animate-in="preset:fadeIn;duration:1300ms;" data-threshold="0.5">
-										<div class="color-white">
-											<h2 class="mb-30">1 on 1 Training</h2>
-											<p class="lead">Exclusive Personal Training with Michael Jiang</p>
-										</div>
-										<p class="color-white opacity-07">Receive the undivided attention of a fitness expert to achieve your goals in the shortest amount of time possible. Michael has transformed the lives of thousands of individuals and is now offering a chance for people to get personal coaching for a limited time only. Learn the secret to unparalleled performance and lasting health. Limited spots are available. </p>
-										<a href="#contact" data-offset="-60" class="button scroll-link medium bkg-white bkg-hover-charcoal color-charcoal color-hover-white text-uppercase">Book Now!</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- Hero Section 5 End -->
-
 				</div>
-				<!-- Services -->
+				<!-- Portfolio Grid End -->
+
+
+				<!-- Client Section Custom -->
+				<div class="section-block clients-1 replicable-content no-padding-bottom bkg-charcoal color-white">
+					<div class="row">
+						<div class="column width-4">
+							<h4 class="color-white mb-80 text-uppercase">Experience</h4>
+						</div>
+						<div class="column width-8">
+							<div class="row content-grid-4 flex">
+								<div class="grid-item">
+									<h5 class="client-name">Coca-Cola</h5>
+                                    <span class="client-description font-alt-1">Brand</span>
+				
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">PharmacyPal</h5>
+									<span class="client-description font-alt-1">Application</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">VicSuper</h5>
+									<span class="client-description font-alt-1">Fund</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">AirPocket</h5>
+									<span class="client-description font-alt-1">Product</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Qantas</h5>
+									<span class="client-description font-alt-1">Airline</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Victoria's Models</h5>
+									<span class="client-description font-alt-1">Agency</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">National Arboretum Canberra</h5>
+									<span class="client-description font-alt-1">Scenic Reserve</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Tipple</h5>
+									<span class="client-description font-alt-1">Visual Domain</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Hype DC</h5>
+									<span class="client-description font-alt-1">Shoe Store</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Charmaine Ross</h5>
+									<span class="client-description font-alt-1">Author</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Cummins & Partners</h5>
+									<span class="client-description font-alt-1">Creative Design</span>
+								</div>
+								<div class="grid-item">
+									<h5 class="client-name">Cricket Australia</h5>
+									<span class="client-description font-alt-1">National Media Outlet</span>
+								</div>
+							</div>
+						</div>
+						<div class="column width-12 pt-70">
+							<hr class="no-margins border-grey opacity-05">
+						</div>
+					</div>
+				</div>
+				<!-- Client Section Custom End -->
                 
-                <!-- Testimonial Section-->
-                
-                	<div id="testimonials">
-                
+                <!-- Testimonial Section 5 -->
+                               <section id="testimonials">
+                               
 				<div class="section-block testimonial-5 testimonials-5-about-1">
+					<div class="row">
+						<div class="column width-8 offset-2 center">
+							<h2 class="mb-30">Here's what some clients<br> think of our work...</h2>
+						</div>
+					</div>
 					<div id="testimonial-slider-1" class="testimonial-slider tm-slider-container">
 						<ul class="tms-slides">	
 							<li class="tms-slide" data-image>
@@ -401,9 +492,8 @@
 									<div class="row">
 										<div class="column width-8 offset-2">
 											<blockquote class="center large">
-												<p>"I fell in love with training with Mike and Suns Out Fitness since day 1. After a few weeks, my weight and health improved dramatically. My whole physical being, mental, health, social, and emotional well-being improved. I didn't just meet a coach, I met a friend who I bonded to encourage me to become a better person."
-													<cite>Francis A</cite>
-												</p>
+												<p>Amazingly talented, easy going, easy to work with, photogenic and amazing to photograph. Can’t recommend him enough!</p>
+												<cite>Veronica. L</cite>
 											</blockquote>
 										</div>
 									</div>
@@ -414,9 +504,8 @@
 									<div class="row">
 										<div class="column width-8 offset-2">
 											<blockquote class="center large">
-												<p>"It's exactly what I've been looking for. I'd be lost without Michael. His expertise is unmatchable."
-													<cite>Maria D</cite>
-												</p>
+												<p> Dave was a pleasure to work with. He was very professional, punctual and was an absolutely positive addition to my photoshoot - which was very specialised. I highly recommend Dave for any model work.</p>
+												<cite>Charmaine. A</cite>
 											</blockquote>
 										</div>
 									</div>
@@ -427,9 +516,8 @@
 									<div class="row">
 										<div class="column width-8 offset-2">
 											<blockquote class="center large">
-												<p>"Training with Michael is worth much more than I paid. Needless to say we are extremely satisfied with the results we have gotten."
-													<cite>James C</cite>
-												</p>
+												<p>Such a pleasure working with David. He’s very friendly and brings great energy to the set. A unique and interesting man who will surely bring those qualities into your film if you cast him. Highly recommend!</p>
+												<cite>Rajveer. S</cite>
 											</blockquote>
 										</div>
 									</div>
@@ -440,9 +528,8 @@
 									<div class="row">
 										<div class="column width-8 offset-2">
 											<blockquote class="center large">
-												<p>"I would like to thank Mike for helping me lose over 30 pounds in such a short time."
-													<cite>Amy S</cite>
-												</p>
+												<p>Dave was an absolute joy to work with. Friendly, charismatic and professional - I was so impressed by his ability to bring a character to life and improvise at a moments notice. Dave is immensely talented and possess a wonderful positive energy that would be beneficial to any shoot. I recommend him highly and hope to work together in the future.</p>
+												<cite>Sarcha. G</cite>
 											</blockquote>
 										</div>
 									</div>
@@ -451,156 +538,97 @@
 						</ul>
 					</div>
 				</div>
-                </div>
-                
+        
+    
+   
 				<!-- Testimonial Section 5 End -->
-                
-                <!-- Contact -->
-                	
-			
-			<section id="contact">
 
-					<!-- Hero 2 -->
-					<div class="section-block hero-1 hero-1-1 small color-charcoal-light bkg-grey-ultralight">
-						<div class="row">
-							<div class="column width-12">
-								<div class="hero-content">
-									<div class="hero-content-inner">
-										<div class="row">
-											<div class="column width-3">
-												<h3>Contact Us</h3>
-											</div>
-											<div class="column width-9">
-												<p class="lead mb-70 color-charcoal-light"><strong>Let's Get Started on Building Your Dream Body.</strong> <br>
-                                                    
-                                                Send us a quick email below, we are happy to discuss your fitness goals and book you a session. 
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Hero 2 End -->
+		
 
-					<!-- Form -->
-					<div class="section-block replicable-content contact-2">
-						<div class="row">
-							<div class="column width-12">
-								<div class="row">
-									<div class="column width-9 offset-3">
-										<div class="contact-form-container">
-											<form class="contact-form" action="php/send-email.php" method="post" novalidate>
-												<div class="row">
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<input type="text" name="fname" class="form-fname form-element" placeholder="First Name*" tabindex="1" required>
-														</div>
-													</div>
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<input type="text" name="lname" class="form-lname form-element" placeholder="Last Name" tabindex="2">
-														</div>
-													</div>
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<input type="email" name="email" class="form-email form-element" placeholder="Email address*" tabindex="3" required>
-														</div>
-													</div>
-													<div class="column width-6">
-														<div class="field-wrapper">
-															<div class="form-select form-element">
-																<select name="budget" tabindex="4" class="form-aux" data-label="Project Budget">
-																	<option selected="selected" value="">Training Type</option>
-																	<option value="">Martial Arts Training</option>
-																	<option value="">Obstacle Course Training</option>
-																	<option value="">Group Training</option>
-																	<option value="">1 on 1 Training</option>
-                                                                    	<option value="">Other</option>
-																</select>
-															</div>
-														</div>
-													</div>
-													<div class="column width-6">
-														<input type="text" name="honeypot" class="form-honeypot form-element">
-													</div>
-												</div>
-												<div class="row">
-													<div class="column width-12">
-														<div class="field-wrapper">
-															<textarea name="message" class="form-message form-element" placeholder="Message*" tabindex="5" required></textarea>
-														</div>
-														<input type="submit" value="Send Email" class="form-submit button bkg-charcoal bkg-hover-theme color-white color-hover-white">
-													</div>
-												</div>
-											</form>
-											<div class="form-response"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Form End -->
+ 
 
-				</section>
-				<!-- Contact End -->
+			<!-- Content End -->
 
-                
-                 
-			
-			
-         <!-- Footer -->
+				<!-- Footer -->
+                                <section id="contact">
 			<footer class="footer">
 				<div class="footer-top">
 					<div class="row flex">
-						<div class="column width-6 offset-3 center">
+						<div class="column width-5">
 							<div class="widget">
-								<h4 class="widget-title">Contact Me</h4>
-								<p class="no-margin-bottom">
-									+09 569615173
-								</p>
-								<p>
-									<a href="mailto:mikejiang1988@gmail.com">mikejiang1988@gmail.com</a>
-								</p>
-								<ul class="social-list list-horizontal">
-									<li><a href="https://www.instagram.com/mikejiang8/" target="_blank" class="color-grey-light"><span class="icon-instagram-with-circle large"></span></a></li>
-										<li><a href="https://www.facebook.com/mikejiang8" target="_blank" class="color-grey-light"><span class="icon-facebook-with-circle large"></span></a></li>
-								
-									
+								<h4 class="widget-title">Dave Thomson</h4>
+								<p>David is a model and actor. He has experience and a passion for martial arts (Taekwondo, Muay Thai), hip hop dancing, fitness training (weight lifting, Olympic lifting, CrossFit), swimming, kayaking, other sports (basketball, tennis). He is available to contact through these sources.</p>
+                                
+                       	<ul class="social-list list-horizontal no-margin-bottom">
+									<li><a class="no-margin-right" href="https://www.instagram.com/_davethomson/" target="_blank">Instagram</a> 
+                                    </li>
 								</ul>
 							</div>
 						</div>
-					</div>
-				</div>
+                        
+						<div class="column width-3 offset-3">
+							<div class="widget">
+								<h4 class="widget-title">Contact</h4>
+								<ul>
+									<li>
+										<a href="">NOW Model Management (Singapore)</a>
+									</li>
+									<li>
+										<a href="#">+65 6222 6518</a>
+									</li>
+                                    <li>
+										<a href="#">booker@nowmodelmgmt.com</a>
+									</li>
+                                    <br>
+									<li>
+										<a href="#">WINK Models (Australia)</a>
+									</li>
+									<li>
+										<a href="#">+61 3 8560 1899</a>
+									</li>
+									<li>
+										<a href="#">melbourne@winkmodels.com.au</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+							
+					
+                    </div>
+                </div>
+
 				<div class="footer-bottom">
 					<div class="row">
-						<div class="column width-12 center">
-							<p class="copyright">
-								&copy; Michael Jiang. All Rights Reserved.
+						<div class="column width-12">
+							<p class="copyright pull-left">
+								&copy; Dave Thomson. All Rights Reserved.
 							</p>
 						</div>
 					</div>
 				</div>
+                    
 			</footer>
 			<!-- Footer End -->
-                
-			
-			
-			
 		
-			<!-- Content End -->
+                                  
+	
 
-			
 
-
-		</div>
-	</div>
 
 	<!-- Js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
 	<script src="js/timber.master.min.js"></script>
-    </div>         
+                                    
+                                   </section>
+                               </section>
+                </section>
+            </div>
+        </div>
+         </div>
+    </section>
+    
+
 </body>
 </html>
