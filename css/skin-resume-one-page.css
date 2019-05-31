@@ -569,7 +569,7 @@ body,
 	border-top: none;
 }
 .mobile .header .header-inner{
-	border-bottom: 1px solid #eee;
+	border-bottom: 10px solid #eee;
 }
 .mobile .header + .content{
 	padding-top: 0;
@@ -581,7 +581,7 @@ body,
 		background-color: #fff;
 	}
 	.header .header-inner{
-		border-bottom: 130px solid #fff;
+		border-bottom: 125px solid #fff;
 	}
 	.header .header-inner > .nav-bar{
 		padding: 0;
