@@ -569,7 +569,7 @@ body,
 	border-top: none;
 }
 .mobile .header .header-inner{
-	border-bottom: 125px solid #eee;
+	border-bottom: 125px solid #fff;
 }
 .mobile .header + .content{
 	padding-top: 0;
