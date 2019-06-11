@@ -528,7 +528,7 @@ body,
 
 /* Initial Position */
 .header-bottom{
-	bottom: 0;
+	bottom: 0.1;
 }
 
 /* Intial Height */
@@ -619,19 +619,24 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 12.5rem;
+	width: 25rem;
+    
+
 }
 
 /* Compacted Header Logo Width */
 .header-compact .logo{
-	width: 12.5rem;
+	width: 25rem;
 }
 
 /* Initial Logo Styling */
 .header .logo a{
 	display: block !important;
 	position: absolute;
-	top: 0;
+	top: -65px;
+ 
+   
+    
 }
 .header-in .logo a,
 .header-out .logo a{
@@ -645,6 +650,7 @@ body,
 }
 .header .logo a + a{
 	display: none !important;
+    
 }
 
 /* Transparent Header Show Light Logo */
@@ -664,12 +670,17 @@ body,
 	opacity: 1;
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
+    top: 2px;
+    
+ 
 }
 .header-background .logo a + a{
 	display: block !important;
 	opacity: 0;
 	-webkit-transform: translateY(-5rem);
 	transform: translateY(-5rem);
+ 
+ 
 }
 
 /* Logo Nav Dark */
